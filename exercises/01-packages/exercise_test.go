@@ -3,6 +3,7 @@ package main
 import (
 	"strings"
 	"testing"
+	"packages-demo/greetings"
 )
 
 // Note: These tests are designed to guide your implementation.
@@ -11,7 +12,7 @@ import (
 func TestFormalGreeting(t *testing.T) {
 	// Skip if greetings package not yet created
 	// Once you create the package, remove this skip
-	t.Skip("Remove this skip once you've created the greetings package")
+	// t.Skip("Remove this skip once you've created the greetings package")
 	
 	tests := []struct {
 		name     string
@@ -38,10 +39,10 @@ func TestFormalGreeting(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			// TODO: Uncomment and update once greetings package exists
-			// got := greetings.Formal(tt.input)
-			// if got != tt.expected {
-			//     t.Errorf("Formal(%q) = %q; want %q", tt.input, got, tt.expected)
-			// }
+			got := greetings.Formal(tt.input)
+			if got != tt.expected {
+			    t.Errorf("Formal(%q) = %q; want %q", tt.input, got, tt.expected)
+			}
 		})
 	}
 }
@@ -102,7 +103,8 @@ func TestGreetingsUseDRY(t *testing.T) {
 	// Both should handle the same edge case identically
 	// because they share the capitalize helper
 	
-	weirdName := "jOhN"
+	_ = strings.Contains // suppress unused import warning during skip
+	// weirdName := "jOhN"
 	
 	// TODO: Uncomment once greetings package exists
 	// formal := greetings.Formal(weirdName)
@@ -115,8 +117,6 @@ func TestGreetingsUseDRY(t *testing.T) {
 	// if !strings.Contains(casual, "John") {
 	//     t.Error("Casual greeting didn't properly capitalize name")
 	// }
-	
-	_ = strings.Contains // suppress unused import warning during skip
 }
 
 // ============================================================

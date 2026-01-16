@@ -23,9 +23,9 @@
 > **Estimated Time**: 1-2 weeks
 
 ### 1.1 Packages & Imports
-- [ ] Packages and main
-- [ ] Imports and exported names
-- [ ] **Exercise**: Create a multi-file program
+- 🔄 Packages and main
+- 🔄 Imports and exported names
+- 🔄 **Exercise**: Create a multi-file program
 
 **Go Tour Sections**: Packages, Imports, Exported names
 

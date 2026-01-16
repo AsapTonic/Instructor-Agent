@@ -9,25 +9,46 @@
 
 | Metric | Value |
 |--------|-------|
-| **Started** | [Date] |
+| **Started** | January 16, 2026 |
 | **Current Phase** | Phase 1: Foundations |
 | **Topics Mastered** | 0 |
-| **Total Sessions** | 0 |
-| **Current Streak** | 0 days |
+| **Total Sessions** | 1 |
+| **Current Streak** | 1 days |
 
 ---
 
 ## 🎯 Current Focus
 
-**Topic**: Not started yet
-**Status**: Ready to begin!
-**Next Step**: Run `/next-lesson` to start your journey
+**Topic**: 1.1 Packages & Imports
+**Status**: In Progress
+**Next Step**: Complete understanding of packages, main, and imports
 
 ---
 
 ## 📝 Session Log
 
 <!-- Sessions are logged in reverse chronological order (newest first) -->
+
+---
+
+## Session 1 - January 16, 2026
+
+**Duration**: In progress
+**Topic**: 1.1 Packages & Imports
+**Status**: In Progress
+
+### What We're Covering
+- Go package system basics
+- Main function and entry points
+- Import statements and exported names
+- Creating a multi-file program
+
+### Exercises Planned
+- [ ] Create a multi-file program with proper package structure
+
+### Next Session Plan
+- [ ] Complete 1.1 Packages & Imports mastery
+- [ ] Move to 1.2 Variables & Types
 
 ### Template (Copy for new sessions)
 
